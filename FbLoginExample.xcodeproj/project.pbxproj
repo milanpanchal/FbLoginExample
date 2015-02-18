@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D668BA9D455FC504846DE808 /* libPods-FbLoginExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1F6EB9C2F81CF9B155575F /* libPods-FbLoginExample.a */; };
+		E0099D831A94A5D7005A66BD /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0099D811A94A5D7005A66BD /* WelcomeViewController.m */; };
+		E0099D841A94A5D7005A66BD /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0099D821A94A5D7005A66BD /* WelcomeViewController.xib */; };
 		E0D0A53E1A9462C3009B1EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D0A53D1A9462C3009B1EEE /* main.m */; };
 		E0D0A5411A9462C3009B1EEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D0A5401A9462C3009B1EEE /* AppDelegate.m */; };
-		E0D0A5441A9462C3009B1EEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D0A5431A9462C3009B1EEE /* ViewController.m */; };
-		E0D0A5471A9462C3009B1EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D0A5451A9462C3009B1EEE /* Main.storyboard */; };
 		E0D0A5491A9462C3009B1EEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0D0A5481A9462C3009B1EEE /* Images.xcassets */; };
 		E0D0A54C1A9462C3009B1EEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D0A54A1A9462C3009B1EEE /* LaunchScreen.xib */; };
 		E0D0A5581A9462C3009B1EEE /* FbLoginExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D0A5571A9462C3009B1EEE /* FbLoginExampleTests.m */; };
+		E0D0A5651A946A3D009B1EEE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D0A5641A946A3D009B1EEE /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F1648EAB632B96259939643 /* Pods-FbLoginExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FbLoginExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FbLoginExample/Pods-FbLoginExample.debug.xcconfig"; sourceTree = "<group>"; };
+		8158690D7F5DF291339BF223 /* Pods-FbLoginExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FbLoginExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FbLoginExample/Pods-FbLoginExample.release.xcconfig"; sourceTree = "<group>"; };
+		CA1F6EB9C2F81CF9B155575F /* libPods-FbLoginExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FbLoginExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0099D801A94A5D7005A66BD /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		E0099D811A94A5D7005A66BD /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		E0099D821A94A5D7005A66BD /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		E0D0A5381A9462C3009B1EEE /* FbLoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FbLoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0D0A53C1A9462C3009B1EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0D0A53D1A9462C3009B1EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0D0A53F1A9462C3009B1EEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0D0A5401A9462C3009B1EEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0D0A5421A9462C3009B1EEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0D0A5431A9462C3009B1EEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E0D0A5461A9462C3009B1EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0D0A5481A9462C3009B1EEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E0D0A54B1A9462C3009B1EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E0D0A5511A9462C3009B1EEE /* FbLoginExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FbLoginExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0D0A5561A9462C3009B1EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0D0A5571A9462C3009B1EEE /* FbLoginExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FbLoginExampleTests.m; sourceTree = "<group>"; };
+		E0D0A5631A946A3D009B1EEE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E0D0A5641A946A3D009B1EEE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D668BA9D455FC504846DE808 /* libPods-FbLoginExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81F2AD084F4D0FD5EE3AD958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA1F6EB9C2F81CF9B155575F /* libPods-FbLoginExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B8ECE62FF86AC65B7ABEDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F1648EAB632B96259939643 /* Pods-FbLoginExample.debug.xcconfig */,
+				8158690D7F5DF291339BF223 /* Pods-FbLoginExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E0D0A52F1A9462C3009B1EEE = {
 			isa = PBXGroup;
 			children = (
 				E0D0A53A1A9462C3009B1EEE /* FbLoginExample */,
 				E0D0A5541A9462C3009B1EEE /* FbLoginExampleTests */,
 				E0D0A5391A9462C3009B1EEE /* Products */,
+				B5B8ECE62FF86AC65B7ABEDD /* Pods */,
+				81F2AD084F4D0FD5EE3AD958 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +110,11 @@
 			children = (
 				E0D0A53F1A9462C3009B1EEE /* AppDelegate.h */,
 				E0D0A5401A9462C3009B1EEE /* AppDelegate.m */,
-				E0D0A5421A9462C3009B1EEE /* ViewController.h */,
-				E0D0A5431A9462C3009B1EEE /* ViewController.m */,
-				E0D0A5451A9462C3009B1EEE /* Main.storyboard */,
+				E0D0A5631A946A3D009B1EEE /* LoginViewController.h */,
+				E0D0A5641A946A3D009B1EEE /* LoginViewController.m */,
+				E0099D801A94A5D7005A66BD /* WelcomeViewController.h */,
+				E0099D811A94A5D7005A66BD /* WelcomeViewController.m */,
+				E0099D821A94A5D7005A66BD /* WelcomeViewController.xib */,
 				E0D0A5481A9462C3009B1EEE /* Images.xcassets */,
 				E0D0A54A1A9462C3009B1EEE /* LaunchScreen.xib */,
 				E0D0A53B1A9462C3009B1EEE /* Supporting Files */,
@@ -126,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0D0A55B1A9462C3009B1EEE /* Build configuration list for PBXNativeTarget "FbLoginExample" */;
 			buildPhases = (
+				142799D21213642052E1735B /* Check Pods Manifest.lock */,
 				E0D0A5341A9462C3009B1EEE /* Sources */,
 				E0D0A5351A9462C3009B1EEE /* Frameworks */,
 				E0D0A5361A9462C3009B1EEE /* Resources */,
+				DE084D508A09EF75E5892552 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D0A5471A9462C3009B1EEE /* Main.storyboard in Resources */,
 				E0D0A54C1A9462C3009B1EEE /* LaunchScreen.xib in Resources */,
 				E0D0A5491A9462C3009B1EEE /* Images.xcassets in Resources */,
+				E0099D841A94A5D7005A66BD /* WelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,12 +245,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		142799D21213642052E1735B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE084D508A09EF75E5892552 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FbLoginExample/Pods-FbLoginExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0D0A5341A9462C3009B1EEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D0A5441A9462C3009B1EEE /* ViewController.m in Sources */,
+				E0D0A5651A946A3D009B1EEE /* LoginViewController.m in Sources */,
+				E0099D831A94A5D7005A66BD /* WelcomeViewController.m in Sources */,
 				E0D0A5411A9462C3009B1EEE /* AppDelegate.m in Sources */,
 				E0D0A53E1A9462C3009B1EEE /* main.m in Sources */,
 			);
@@ -244,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E0D0A5451A9462C3009B1EEE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0D0A5461A9462C3009B1EEE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E0D0A54A1A9462C3009B1EEE /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +398,7 @@
 		};
 		E0D0A55C1A9462C3009B1EEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1648EAB632B96259939643 /* Pods-FbLoginExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FbLoginExample/Info.plist;
@@ -351,6 +409,7 @@
 		};
 		E0D0A55D1A9462C3009B1EEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8158690D7F5DF291339BF223 /* Pods-FbLoginExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FbLoginExample/Info.plist;
@@ -412,6 +471,7 @@
 				E0D0A55D1A9462C3009B1EEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0D0A55E1A9462C3009B1EEE /* Build configuration list for PBXNativeTarget "FbLoginExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +480,7 @@
 				E0D0A5601A9462C3009B1EEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
